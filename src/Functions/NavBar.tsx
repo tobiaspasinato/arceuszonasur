@@ -7,8 +7,8 @@ export default function NavBar() {
       <img src={logo} className="homelogo"/> Arceus de Zona sur
     </Link>
     <ul>
-      <CustomLink to="/pokemon">Pokemon</CustomLink>
       <CustomLink to="/tabladetipos">Tabla de tipos</CustomLink>
+      <CustomLink to="/pokedex">Pokedex</CustomLink>
     </ul>
   </nav>
 }

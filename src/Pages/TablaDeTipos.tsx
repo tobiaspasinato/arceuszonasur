@@ -1,3 +1,11 @@
+import DarkExample from "../Functions/table"
+
 export default function TablaDeTipos() {
-    return <h1>TablaDeTipos</h1>
+    return (
+        <div className="App">
+        <header className="App-TypePokemon">
+            <DarkExample></DarkExample>
+        </header>
+        </div>
+    )
 }

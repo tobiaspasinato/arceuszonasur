@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  margin: 0px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -31,8 +35,46 @@
   color: rgb(255, 253, 253);
 }
 
-.App-link {
+.App-pokedex {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("https://imgs.search.brave.com/d8IMsmz4WQkK7IFwTQZ4b28m_ZGduc8kp0G5UFGj9ys/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDMxNzAx/NzMucG5n");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #8b0000 ;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 253, 253);
+}
+
+.App-TypePokemon {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("https://imgs.search.brave.com/-PrSTWQuS3Abqz61z89ChmwhdCB6F7Nmn7qZ4BYskp8/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly90d2lu/ZmluaXRlLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/OS9Qb2tlbW9uVHlw/ZXMucG5n");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  min-height: 100vh;
+  background-color: #363636 ;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 253, 253);
+}
+
+/* .App-link {
   color: #acacac;
+} */
+
+.App-color-table {
+  color:rgb(182, 181, 181) !important;
 }
 
 @keyframes App-logo-spin {

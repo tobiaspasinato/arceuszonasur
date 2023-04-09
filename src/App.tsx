@@ -3,8 +3,8 @@ import './App.css';
 import './Functions/table'
 import BasicExample from './Functions/table';
 import NavBar from './Functions/NavBar'
-import Pokedex from './Pages/Pokedex';
 import TablaDeTipos from './Pages/TablaDeTipos';
+import Pokedex from './Pages/pokedex';
 import Home from './Pages/Home';
 import { Route, Routes} from "react-router-dom"
 
@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       <NavBar/>
-      <div className='container'>
+      <div>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/pokedex' element={<Pokedex />} />
           <Route path='/tabladetipos' element={<TablaDeTipos />} />
+          <Route path='/pokedex' element={<Pokedex />} />
         </Routes>
       </div>
     </>

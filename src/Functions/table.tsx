@@ -1,33 +1,38 @@
 import Table from 'react-bootstrap/Table';
 
-export default function BasicExample() {
+export default function DarkExample() {
   return (
-    <Table striped bordered hover>
+    <Table size="sm" bordered className='App-color-table'>
       <thead>
         <tr>
-          <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Tipos</th>
+          <th>Efectivo</th>
+          <th>No Efectivo</th>
+          <th>Debil</th>
+          <th>Inmune</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <th>Fuego</th>
+          <th>Hielo, Planta, Bicho, Acero</th>
+          <th>No Efectivo</th>
+          <th>Debil</th>
+          <th>Inmune</th>
         </tr>
         <tr>
-          <td>2</td>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <th>Tipos</th>
+          <th>Efectivo</th>
+          <th>No Efectivo</th>
+          <th>Debil</th>
+          <th>Inmune</th>
         </tr>
         <tr>
-          <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
-          <td>@twitter</td>
+          <th>Tipos</th>
+          <th>Efectivo</th>
+          <th>No Efectivo</th>
+          <th>Debil</th>
+          <th>Inmune</th>
         </tr>
       </tbody>
     </Table>
