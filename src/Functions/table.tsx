@@ -50,12 +50,40 @@ export default function DarkExample() {
         </tr>
         <tr>
           <th>Electrico</th>
+          <th>Agua, Volador</th>
+          <th>Planta, Electrico, Dragon</th>
+          <th>Tierra</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Dragon</th>
+          <th>Dragon</th>
+          <th>Acero</th>
+          <th>Hielo, Hada, Dragon</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Lucha</th>
+          <th>Hielo, Normal, Roca, Siniestro, Acero</th>
+          <th>Volador, Bicho, Hada, Psiquico, Veneno</th>
+          <th>Volador, Psiquico, Hada</th>
+          <th></th>
+        </tr>
+        <tr>
+          <th></th>
           <th>Efectivo</th>
           <th>No Efectivo</th>
           <th>Debil</th>
           <th>Inmune</th>
         </tr>
-        <tr>
+                <tr>
+          <th>Tipos</th>
+          <th>Efectivo</th>
+          <th>No Efectivo</th>
+          <th>Debil</th>
+          <th>Inmune</th>
+        </tr>
+                <tr>
           <th>Tipos</th>
           <th>Efectivo</th>
           <th>No Efectivo</th>
